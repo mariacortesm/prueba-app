@@ -17,18 +17,18 @@ body {
 }
 
 .description-one {
-    margin: 2em 6em 0em 1em;
+    margin: 5em 6em 0em 1em;
 }
 
 .image-onboarding {
     width: 22em;
     height: 20em;
     object-fit: contain;
-    margin: 3em 0em 0em 1em;
+    margin: 5em 0em 3em 1em;
 }
 
 .description-two {
-    margin: 0em 1em 2em 6em;
+    margin: 0em 1em 3em 6em;
 }
 
 .section-bton {
@@ -38,9 +38,9 @@ body {
 }
  
 .bton-onboarding {
-    width: 89px;
-    height: 25px;
-    background-color: #FDF6F9;
+    width: 100px;
+    height: 40px;
+    background-color: #EB8C15;
     border-color: #FDF6F9;
     border-radius: 15px;
 }

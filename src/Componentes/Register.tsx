@@ -5,32 +5,31 @@ import iconoMail from "../Imagenes/icono-mail.png";
 import iconoPassword from "../Imagenes/icono-contrasena.png";
 import { Link } from "react-router-dom";
 
-
 function Register() {
   return (
-    <main className="register-container route_page">
+    <main className="register-container route_page-no-navbar">
       <section className="section-text">
-        <img src={imageRegister} className="image-register"></img>
-        <h1 className="welcome-text">¡CREA TU CUENTA!</h1>
-        <h2 className="welcome-text">
+        <img src={imageRegister} className="image-register" />
+        <h1 className="welcome-text-one">¡CREA TU CUENTA!</h1>
+        <h2 className="welcome-text-two">
           ¿Ya tienes una cuenta? <a href="www.ejemplo.com">Inicia sesión</a>
         </h2>
       </section>
       <section className="section-input">
-        <img src={iconoUser} className="image-input"></img>
+        <img src={iconoUser} className="image-input" />
         <input className="input-text" placeholder="Nombre_de_usuario"></input>
       </section>
       <section className="section-input">
-        <img src={iconoMail} className="image-input"></img>
+        <img src={iconoMail} className="image-input" />
         <input className="input-text" placeholder="Correo_electrónico"></input>
       </section>
       <section className="section-input">
-        <img src={iconoPassword} className="image-input"></img>
+        <img src={iconoPassword} className="image-input" />
         <input className="input-text" placeholder="Contraseña"></input>
       </section>
       <section className="section-bton">
-        <Link to='/login'>
-        <button className="bton-input">REGISTRARSE</button>
+        <Link to="/login">
+          <button className="bton-input">REGISTRARSE</button>
         </Link>
       </section>
     </main>

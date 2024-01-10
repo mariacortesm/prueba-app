@@ -9,39 +9,36 @@ function WriterProfile() {
     <main className="container-writerprofile route_page">
       <section className="section-info-writer">
         <section>
-          <img src={avatarWriter} className="avatar-writer"></img>
+          <img src={avatarWriter} className="avatar-writer" />
         </section>
         <section>
           <h2 className="writer-text">Nombre_usuario</h2>
           <h3 className="writer-text">Descripción_del_perfil</h3>
-          <img src={ratignWriter} className="rating-writer"></img>
+          <img src={ratignWriter} className="rating-writer" />
           <button className="bton-writer">Conectar</button>
         </section>
       </section>
-      <section>
+      <section className="section-rating">
         <p>Reseñas y comentarios</p>
         <section className="section-user-rating">
-          <img src={avatarUserRating} className="avatar-user-rating"></img>
-          <p className="text-messages">Lorem ipsum dolor sit amet.</p>
+          <img src={avatarUserRating} className="avatar-user-rating" />
+          <p className="text-messages-rating">Lorem ipsum dolor sit amet.</p>
         </section>
         <section className="section-user-rating">
-          <img src={avatarUserRating} className="avatar-user-rating"></img>
-          <p className="text-messages">Lorem ipsum dolor sit amet.</p>
+          <img src={avatarUserRating} className="avatar-user-rating" />
+          <p className="text-messages-rating">Lorem ipsum dolor sit amet.</p>
         </section>
-        <p className="ver-mas">
-          <a href="www.ejemplo.com">Ver más</a>
-        </p>
       </section>
-      <section>
+      <section className="professional-section">
         <p>Perfil profesional</p>
-        <p className="text-messages">
+        <p className="text-messages-writer">
           Lorem ipsum dolor sit amet. Hic autem placeat in atque dolor hic magni
           Quis?
         </p>
       </section>
-      <section>
+      <section className="professional-section">
         <p>Compartir archivo</p>
-        <img src={shareFile} className="share-file"></img>
+        <img src={shareFile} className="share-file" />
       </section>
     </main>
   );

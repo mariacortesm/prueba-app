@@ -9,9 +9,9 @@ import WriterProfile from "./Componentes/WriterProfile";
 import Navbar from "./Componentes/Navbar";
 
 function App() {
-  const { pathname } = useLocation()
-  console.log(pathname)
-  const NO_NAVBAR = ['/', '/login', '/register']
+  const { pathname } = useLocation();
+  console.log(pathname);
+  const NO_NAVBAR = ["/", "/login", "/register"];
   return (
     <>
       <Routes>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Onboarding() {
   return (
-    <main className="onboarding-container route_page">
+    <main className="onboarding-container route_page-no-navbar">
       <section className="section-onboarding">
         <p className="description-one">
           ¡En VORTEX SOLUCIONES impulsamos tus ideas de investigación!
@@ -21,8 +21,8 @@ function Onboarding() {
         </p>
       </section>
       <section className="section-bton">
-        <Link to='/register'>
-        <button className="bton-onboarding">SIGUIENTE</button>
+        <Link to="/register">
+          <button className="bton-onboarding">SIGUIENTE</button>
         </Link>
       </section>
     </main>

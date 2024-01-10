@@ -8,18 +8,18 @@ function MyProfile() {
       <section className="container">
         <section className="section-profile-description">
           <section>
-            <img src={avatarUser} className="avatar-user"></img>
+            <img src={avatarUser} className="avatar-user" />
           </section>
           <section className="text-description">
-            <h2 className="welcome-text">Nombre_usuario</h2>
-            <h3 className="welcome-text">Descripción_del_perfil</h3>
-            <h4 className="welcome-text">Ciudad</h4>
+            <h2 className="welcome-text-two">Nombre_usuario</h2>
+            <h3 className="welcome-text-two">Descripción_del_perfil</h3>
+            <h4 className="welcome-text-two">Ciudad</h4>
           </section>
         </section>
         <section className="group-profile">
           <p>Personas que conoces</p>
-          <img src={userProfile} className="user-profile"></img>
-          <img src={userProfile} className="user-profile"></img>
+          <img src={userProfile} className="user-profile" />
+          <img src={userProfile} className="user-profile" />
           <p className="ver-mas">
             <a href="www.ejemplo.com">Ver más</a>
           </p>

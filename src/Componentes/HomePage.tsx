@@ -15,10 +15,10 @@ function HomePage() {
       </section>
       <section className="icon-section-users">
         <p>Explora</p>
-        <img src={exploreUsers} className="icon-users"></img>
-        <img src={exploreUsers} className="icon-users"></img>
-        <img src={exploreUsers} className="icon-users"></img>
-        <img src={exploreUsers} className="icon-users"></img>
+        <img src={exploreUsers} className="icon-users" />
+        <img src={exploreUsers} className="icon-users" />
+        <img src={exploreUsers} className="icon-users" />
+        <img src={exploreUsers} className="icon-users" />
       </section>
     </main>
   );

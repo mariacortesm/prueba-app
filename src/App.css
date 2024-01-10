@@ -1,3 +1,7 @@
 .route_page{
     height: calc(100vh - 68px);
 }
+
+.route_page-no-navbar{
+    height: calc(100vh);
+}

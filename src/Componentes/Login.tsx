@@ -6,23 +6,23 @@ import { Link } from "react-router-dom";
 
 function Login() {
   return (
-    <main className="login-container route_page">
+    <main className="login-container route_page-no-navbar">
       <section className="section-text-login">
-        <img src={imageLogin} className="image-login"></img>
+        <img src={imageLogin} className="image-login" />
         <h1 className="welcome-text">¡INICIA SESIÓN!</h1>
         <h2 className="welcome-text">Inicia sesión para continuar</h2>
       </section>
       <section className="section-input">
-        <img src={iconoMail} className="image-input"></img>
+        <img src={iconoMail} className="image-input" />
         <input placeholder="Correo_electrónico" className="input-text"></input>
       </section>
       <section className="section-input">
-        <img src={iconoPassword} className="image-input"></img>
+        <img src={iconoPassword} className="image-input" />
         <input placeholder="Contraseña" className="input-text"></input>
       </section>
       <section className="section-bton-login">
-        <Link to='/homepage'>
-        <button className="bton-input">INICIAR SESIÓN</button>
+        <Link to="/homepage">
+          <button className="bton-input">INICIAR SESIÓN</button>
         </Link>
       </section>
     </main>

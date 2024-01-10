@@ -10,9 +10,14 @@
     justify-content: center;
 }
 
-.welcome-text {
-    margin: 0em 0em 0.5em 0em;
+.welcome-text-one {
+    margin: 0px 30px 10px 40px;
     font-weight: 500;
+}
+
+.welcome-text-two {
+    font-weight: 500;
+    font-size: 1em;
 }
 
 .image-register {
@@ -41,7 +46,7 @@
     background-color: #D9D9D9;
     border: none;
     border-radius: 15px;
-    margin: 0.5em 0em 0.5em 0.5em;
+    margin: 10px 10px 10px 10px;
 }
 
 .input-text::placeholder {
