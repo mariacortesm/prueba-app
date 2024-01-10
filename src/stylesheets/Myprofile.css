@@ -3,9 +3,9 @@
     background-size:cover;
 }
 
-.container {
-    margin: 0em 2em 1em 2em;
-}
+/* .container {
+    margin: 0em 2em 0em 2em;
+} */
 
 .avatar-user {
     width: 10em;
@@ -18,7 +18,7 @@
 }
 
 .text-description {
-    margin: 0em 0em 0em 0em;
+    margin: 5.5em 0em 0em 0em;
 }
 
 .group-profile {
@@ -47,15 +47,4 @@
     height: 3em;
     padding: 3px 5px 0px 5px;
     margin: 1em 0em 0em 0em;
-}
-
-.icon-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.icon-image {
-    width: 4em;
-    object-fit: cover;
-    margin-top: 2em;
 }

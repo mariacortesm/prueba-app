@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
 
 body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+.onboarding-container {
     background-image: url('../Imagenes/backgroung-boarding.png');
     background-size: cover;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .section-onboarding {
