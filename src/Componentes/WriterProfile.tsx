@@ -6,7 +6,7 @@ import avatarUserRating from "../Imagenes/avatar-user-rating.png";
 
 function WriterProfile() {
   return (
-    <main className="container-writerprofile">
+    <main className="container-writerprofile route_page">
       <section className="section-info-writer">
         <section>
           <img src={avatarWriter} className="avatar-writer"></img>

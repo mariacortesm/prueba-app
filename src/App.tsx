@@ -11,19 +11,19 @@ import Navbar from "./Componentes/Navbar";
 function App() {
   const { pathname } = useLocation()
   console.log(pathname)
-  const NO_NAVBAR = ['/onboarding', '/login', '/register']
+  const NO_NAVBAR = ['/', '/login', '/register']
   return (
-    <main>
+    <>
       <Routes>
-        <Route path="onboarding" element={<Onboarding />} />
-        <Route path="Register" element={<Register />} />
-        <Route path="Login" element={<Login />} />
-        <Route path="MyProfile" element={<MyProfile />} />
-        <Route path="HomePage" element={<HomePage />} />
-        <Route path="WriterProfile" element={<WriterProfile />} />
+        <Route path="/" element={<Onboarding />} />
+        <Route path="homepage" element={<HomePage />} />
+        <Route path="register" element={<Register />} />
+        <Route path="login" element={<Login />} />
+        <Route path="myProfile" element={<MyProfile />} />
+        <Route path="writerProfile" element={<WriterProfile />} />
       </Routes>
       {NO_NAVBAR.includes(pathname) ? <></> : <Navbar />}
-    </main>
+    </>
   );
 }
 

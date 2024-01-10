@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Register() {
   return (
-    <main className="register-container">
+    <main className="register-container route_page">
       <section className="section-text">
         <img src={imageRegister} className="image-register"></img>
         <h1 className="welcome-text">¡CREA TU CUENTA!</h1>

@@ -2,12 +2,16 @@
 .container-homepage {
     background-image: url('../Imagenes/background-menú-principal.png');
     background-size:cover;
+    flex-grow: 1;
+    height: calc(100vh - 68px);
+    overflow: scroll;
 }
 
 .section-input-search {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 70px 0px 0px 0px;
 }
 
 .input-search {

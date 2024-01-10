@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Login() {
   return (
-    <main className="login-container">
+    <main className="login-container route_page">
       <section className="section-text-login">
         <img src={imageLogin} className="image-login"></img>
         <h1 className="welcome-text">¡INICIA SESIÓN!</h1>

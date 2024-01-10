@@ -6,7 +6,7 @@ import '../stylesheets/Navbar.css'
 
 function Navbar() {
   return (
-    <section className="icon-section">
+    <section className="icon-section route_page">
       <img src={homeIcon} className="icon-image"></img>
       <Link to='/writerprofile'>
           <img src={groupIcon} className="icon-image"></img>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Onboarding() {
   return (
-    <main className="onboarding-container">
+    <main className="onboarding-container route_page">
       <section className="section-onboarding">
         <p className="description-one">
           ¡En VORTEX SOLUCIONES impulsamos tus ideas de investigación!

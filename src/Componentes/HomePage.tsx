@@ -3,7 +3,7 @@ import exploreUsers from "../Imagenes/explore-users.png";
 
 function HomePage() {
   return (
-    <main className="container-homepage">
+    <main className="container-homepage route_page">
       <section className="section-input-search">
         <input placeholder="Buscar..." className="input-search"></input>
       </section>

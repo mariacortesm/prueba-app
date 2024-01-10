@@ -4,7 +4,7 @@ import userProfile from "../Imagenes/user-myprofile.png";
 
 function MyProfile() {
   return (
-    <main className="myprofile-container">
+    <main className="myprofile-container route_page">
       <section className="container">
         <section className="section-profile-description">
           <section>
