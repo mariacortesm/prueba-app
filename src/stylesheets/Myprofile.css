@@ -1,0 +1,61 @@
+.myprofile-container {
+    background-image: url('../Imagenes/background-myprofile.png');
+    background-size:cover;
+}
+
+.container {
+    margin: 0em 2em 1em 2em;
+}
+
+.avatar-user {
+    width: 10em;
+    object-fit: cover;
+}
+
+.section-profile-description {
+    display: inline-flex;
+    margin: 0em 0em 0em 0em;
+}
+
+.text-description {
+    margin: 0em 0em 0em 0em;
+}
+
+.group-profile {
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+}
+
+.user-profile {
+    width: 9em;
+    object-fit: contain;
+    margin: 0em 0em 0em 0em;
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: end;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+} 
+
+.text-messages {
+    border-style:ridge;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    width: 20em;
+    height: 3em;
+    padding: 3px 5px 0px 5px;
+    margin: 1em 0em 0em 0em;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-image {
+    width: 4em;
+    object-fit: cover;
+    margin-top: 2em;
+}

@@ -1,0 +1,64 @@
+.register-container {
+    background-image: url('../Imagenes/background-register.png');
+    background-size:cover;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text {
+    margin: 0em 0em 0.5em 0em;
+    font-weight: 500;
+}
+
+.image-register {
+    width: 15em;
+    height: 17em;
+    object-fit: contain;
+    margin: 1em 4em 1em 4em;
+}
+
+.section-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+
+.image-input {
+    width: 2.5em;
+    height: 3m;
+    object-fit: cover;
+}
+
+.input-text {
+    width: 228px;
+    height: 38px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 15px;
+    margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.input-text::placeholder {
+    text-indent: 15px; 
+}
+
+.section-bton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bton-input {
+    background-color: #EB8C15;
+    width: 120px;
+    height: 38px;
+    border-color: #FDF6F9;
+    border-radius: 15px;
+    margin-top: 2em;
+}

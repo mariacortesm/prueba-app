@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+
+body {
+    background-image: url('../Imagenes/backgroung-boarding.png');
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.section-onboarding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-one {
+    margin: 2em 6em 0em 1em;
+}
+
+.image-onboarding {
+    width: 22em;
+    height: 20em;
+    object-fit: contain;
+    margin: 3em 0em 0em 1em;
+}
+
+.description-two {
+    margin: 0em 1em 2em 6em;
+}
+
+.section-bton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.bton-onboarding {
+    width: 89px;
+    height: 25px;
+    background-color: #FDF6F9;
+    border-color: #FDF6F9;
+    border-radius: 15px;
+}
