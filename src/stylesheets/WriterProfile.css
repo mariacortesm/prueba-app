@@ -53,7 +53,8 @@
     margin: 0;
 }
 
-.text-messages {   border-style:ridge;
+.text-messages {   
+border-style:ridge;
 background-color: #D9D9D9;
 border-radius: 15px;
 width: 17em;

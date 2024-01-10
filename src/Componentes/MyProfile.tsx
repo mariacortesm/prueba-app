@@ -24,16 +24,16 @@ function MyProfile() {
             <a href="www.ejemplo.com">Ver más</a>
           </p>
         </section>
-        <section>
+        <section className="group-message">
           <p>Mensajes (2)</p>
-          <p className="text-messages">
+          <p className="text-messages-myprofile">
             Lorem ipsum dolor sit amet. Hic autem placeat in atque dolor hic
             magni Quis?
           </p>
           <p className="ver-mas">
             <a href="www.ejemplo.com">Ver más</a>
           </p>
-          <p className="text-messages">
+          <p className="text-messages-myprofile">
             Lorem ipsum dolor sit amet. Hic autem placeat in atque dolor hic
             magni Quis?
           </p>
