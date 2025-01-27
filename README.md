@@ -4,31 +4,14 @@
 
 En el siguiente [enlace](https://www.figma.com/file/0W7ydNVHSTOBXmXL1xWTAy/Untitled?type=design&node-id=0%3A1&mode=design&t=gHmpkGSncWPSgyPI-1) podrás encontrar a detalle el diseño elaborado en Figma, y sobre el cual se realizó la maquetación web.
 
+![image](https://github.com/user-attachments/assets/db159297-9823-4fa6-9de1-06bd82dac795)
+
+![image](https://github.com/user-attachments/assets/e4c48c1c-4c12-48af-bdfc-d74af9b2bbcc)
+
 El diseño se elaboró solo para app móvil, no para escritorio. La base fue el model de iPhone 12 Pro.
+
+![Diseño sin título - Video](https://cdn.loom.com/sessions/thumbnails/ea67bb8bf97a4dad82096fdf48e38d5f-27805c317c11a109-full-play.gif)
+
 
 ¡Gracias!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
