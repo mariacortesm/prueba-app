@@ -10,8 +10,7 @@ En el siguiente [enlace](https://www.figma.com/file/0W7ydNVHSTOBXmXL1xWTAy/Untit
 
 El diseño se elaboró solo para app móvil, no para escritorio. La base fue el model de iPhone 12 Pro.
 
-![Diseño sin título - Video](https://cdn.loom.com/sessions/thumbnails/ea67bb8bf97a4dad82096fdf48e38d5f-27805c317c11a109-full-play.gif)
-
+[Ver el video en Loom](https://www.loom.com/embed/ea67bb8bf97a4dad82096fdf48e38d5f?sid=8c212f95-c47a-489c-bc69-bfcc786b10a0)
 
 ¡Gracias!
 
