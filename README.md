@@ -12,6 +12,15 @@ El diseño se elaboró solo para app móvil, no para escritorio. La base fue el 
 
 [![Ver el video en Loom](https://cdn.loom.com/sessions/thumbnails/ea67bb8bf97a4dad82096fdf48e38d5f-27805c317c11a109-full-play.gif)](https://www.loom.com/share/ea67bb8bf97a4dad82096fdf48e38d5f?sid=f9facdd7-6202-47f2-8118-e88e65410387)
 
+<div>
+  <a href="https://www.loom.com/share/ea67bb8bf97a4dad82096fdf48e38d5f?sid=47904afc-6e85-4b17-b57d-8bfa7d97345b">
+    <p>Prueba App video</p>
+  </a>
+  <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+    <iframe src="https://www.loom.com/embed/ea67bb8bf97a4dad82096fdf48e38d5f?sid=47904afc-6e85-4b17-b57d-8bfa7d97345b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+  </div>
+</div>
+
 
 ¡Gracias!
 
